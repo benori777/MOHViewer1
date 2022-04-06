@@ -24,8 +24,6 @@ namespace MOHViewer
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
             containerRegistry.Register<Services.IMOHDataFetchService, Services.MOHDataFetchService>();
-
-            //containerRegistry.Register(typeof(object), typeof(Views.DataViewer), "DataViewer");
         }
 
 
